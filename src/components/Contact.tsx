@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-4 text-foreground">Get in Touch</h2>
           <p className="text-center text-muted-foreground mb-12">
-            Interested in collaboration or have a project in mind? Let's connect!
+            Open to internship opportunities, research collaborations, and data science projects!
           </p>
 
           <Card className="border-border bg-card">
@@ -21,10 +21,10 @@ const Contact = () => {
                   className="h-auto py-6 flex-col gap-2 hover:bg-primary hover:text-primary-foreground transition-all"
                   asChild
                 >
-                  <a href="mailto:your.email@example.com">
+                  <a href="mailto:heraa.muqri@mail.utoronto.ca">
                     <Mail className="w-6 h-6" />
                     <span className="text-lg font-semibold">Email</span>
-                    <span className="text-sm text-muted-foreground">your.email@example.com</span>
+                    <span className="text-sm text-muted-foreground">heraa.muqri@mail.utoronto.ca</span>
                   </a>
                 </Button>
 
@@ -34,7 +34,20 @@ const Contact = () => {
                   className="h-auto py-6 flex-col gap-2 hover:bg-primary hover:text-primary-foreground transition-all"
                   asChild
                 >
-                  <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+                  <a href="tel:905-462-8303">
+                    <Mail className="w-6 h-6" />
+                    <span className="text-lg font-semibold">Phone</span>
+                    <span className="text-sm text-muted-foreground">905-462-8303</span>
+                  </a>
+                </Button>
+
+                <Button 
+                  variant="outline" 
+                  size="lg" 
+                  className="h-auto py-6 flex-col gap-2 hover:bg-primary hover:text-primary-foreground transition-all"
+                  asChild
+                >
+                  <a href="https://linkedin.com/in/heraa-muqri" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="w-6 h-6" />
                     <span className="text-lg font-semibold">LinkedIn</span>
                     <span className="text-sm text-muted-foreground">Connect with me</span>
@@ -47,7 +60,7 @@ const Contact = () => {
                   className="h-auto py-6 flex-col gap-2 hover:bg-primary hover:text-primary-foreground transition-all"
                   asChild
                 >
-                  <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/heraa-muqri" target="_blank" rel="noopener noreferrer">
                     <Github className="w-6 h-6" />
                     <span className="text-lg font-semibold">GitHub</span>
                     <span className="text-sm text-muted-foreground">View my code</span>
@@ -57,10 +70,10 @@ const Contact = () => {
                 <Button 
                   variant="outline" 
                   size="lg" 
-                  className="h-auto py-6 flex-col gap-2 hover:bg-primary hover:text-primary-foreground transition-all"
+                  className="h-auto py-6 flex-col gap-2 hover:bg-primary hover:text-primary-foreground transition-all col-span-2"
                   asChild
                 >
-                  <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="/Heraa_Muqri_Resume.pdf" target="_blank" rel="noopener noreferrer">
                     <FileText className="w-6 h-6" />
                     <span className="text-lg font-semibold">Resume</span>
                     <span className="text-sm text-muted-foreground">Download PDF</span>

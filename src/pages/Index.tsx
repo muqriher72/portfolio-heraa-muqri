@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
+import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 
@@ -8,6 +9,7 @@ const Index = () => {
     <div className="min-h-screen">
       <Hero />
       <Skills />
+      <Experience />
       <Projects />
       <Contact />
       
@@ -15,7 +17,7 @@ const Index = () => {
       <footer className="py-8 bg-secondary text-secondary-foreground">
         <div className="container mx-auto px-6 text-center">
           <p className="text-sm">
-            © {new Date().getFullYear()} Data Science Portfolio. Built with passion for innovation.
+            © {new Date().getFullYear()} Heraa Muqri. Engineering Science @ University of Toronto.
           </p>
         </div>
       </footer>

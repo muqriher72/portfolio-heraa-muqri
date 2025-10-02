@@ -5,22 +5,22 @@ const skills = [
   {
     icon: Brain,
     title: "Machine Learning",
-    description: "Deep learning, neural networks, model optimization, and deployment"
+    description: "PyTorch, TensorFlow, Keras, TabPFN, Neural Networks, Reinforcement Learning"
   },
   {
     icon: LineChart,
     title: "Data Analysis",
-    description: "Statistical analysis, data visualization, and predictive modeling"
+    description: "Python, Pandas, NumPy, A/B Testing, Statistical Modeling, EDA"
   },
   {
     icon: Code,
-    title: "Programming",
-    description: "Python, R, SQL, TensorFlow, PyTorch, scikit-learn"
+    title: "Tools & Platforms",
+    description: "PowerBI, Tableau, Docker, Streamlit, Git, Jupyter, Google Colab"
   },
   {
     icon: Database,
-    title: "Big Data",
-    description: "Data engineering, ETL pipelines, and cloud platforms"
+    title: "Data Engineering",
+    description: "SQL, REST APIs, LLM Integration, OCR, Web Scraping, ETL Pipelines"
   }
 ];
 

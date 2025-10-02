@@ -22,10 +22,13 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center">
         <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 animate-fade-in">
-          Data Science & Machine Learning
+          Heraa Muqri
         </h1>
-        <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto">
-          Transforming data into insights, building intelligent systems, and solving complex problems through innovation
+        <p className="text-xl md:text-2xl text-primary-foreground/90 mb-4 max-w-3xl mx-auto">
+          Engineering Science Student @ University of Toronto
+        </p>
+        <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-3xl mx-auto">
+          Machine Intelligence Major | Data Engineer | Building LLM-powered solutions and intelligent systems
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <Button 
