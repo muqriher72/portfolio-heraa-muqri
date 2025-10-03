@@ -32,9 +32,9 @@ const projects = [
   },
   {
     category: "ml",
-    title: "Decision Tree Classifier for Loan Approval Prediction",
-    description: "Trained decision tree classifier on 4,000+ data points with hyperparameter tuning achieving 99% accuracy. Performed EDA on 13 features and engineered new features using scikit-learn.",
-    tags: ["Python", "Scikit-learn", "Decision Trees", "Feature Engineering"],
+    title: "Decision Tree Classifier for Undiagnosed Disease Treatment Prediction",
+    description: "Trained and tested a decision tree classifier using data from Harvard University's Disease Network with 88% accuracy. Collaborated with a team of 3 using NumPy, Pandas, and Sklearn. Published in STEMFellowship Journal.",
+    tags: ["Python", "Scikit-learn", "Decision Trees", "NumPy", "Pandas", "Research"],
     github: "#",
     demo: "#"
   },
