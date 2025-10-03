@@ -31,26 +31,10 @@ const projects = [
     demo: "#"
   },
   {
-    category: "internship",
-    title: "LLM-Powered Spec Search Web App - Xylem",
-    description: "Built and deployed an LLM-powered web app with Gemini API, OCR, and Streamlit achieving 88% accuracy. Automated instrument spec search for 300+ engineers, integrated Excel MCP server with REST APIs.",
-    tags: ["Python", "Gemini API", "Streamlit", "OCR"],
-    github: "#",
-    demo: "#"
-  },
-  {
-    category: "internship",
-    title: "Automated A/B Testing System - Xylem",
-    description: "Automated A/B testing on 200+ datasets using Python and MATLAB, reducing manual testing time by 90%. Generated ROC curves and confusion matrices to optimize tool design, reducing signal noise by 87%.",
-    tags: ["Python", "MATLAB", "A/B Testing", "Excel"],
-    github: "#",
-    demo: "#"
-  },
-  {
-    category: "internship",
-    title: "Sentiment Analysis for Amazon - Extern",
-    description: "Performed web scraping and sentiment analysis on 135+ Glassdoor reviews and 20 YouTube videos using Python NLP. Created visualizations to identify operational pain points in fulfillment centers.",
-    tags: ["Python", "NLP", "Web Scraping", "Matplotlib"],
+    category: "ml",
+    title: "Decision Tree Classifier for Loan Approval Prediction",
+    description: "Trained decision tree classifier on 4,000+ data points with hyperparameter tuning achieving 99% accuracy. Performed EDA on 13 features and engineered new features using scikit-learn.",
+    tags: ["Python", "Scikit-learn", "Decision Trees", "Feature Engineering"],
     github: "#",
     demo: "#"
   },
@@ -120,10 +104,9 @@ const Projects = () => {
         </p>
 
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-          <TabsList className="grid w-full max-w-2xl mx-auto grid-cols-5 mb-12">
+          <TabsList className="grid w-full max-w-2xl mx-auto grid-cols-4 mb-12">
             <TabsTrigger value="all">All</TabsTrigger>
             <TabsTrigger value="ml">ML/AI</TabsTrigger>
-            <TabsTrigger value="internship">Internships</TabsTrigger>
             <TabsTrigger value="data-analytics">Analytics</TabsTrigger>
             <TabsTrigger value="extracurricular">Extra</TabsTrigger>
           </TabsList>
