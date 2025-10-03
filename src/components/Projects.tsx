@@ -4,6 +4,15 @@ import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ExternalLink, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import mlImage from "@/assets/project-ml.jpg";
+import analyticsImage from "@/assets/project-analytics.jpg";
+import extraImage from "@/assets/project-extra.jpg";
+
+const categoryImages = {
+  ml: mlImage,
+  "data-analytics": analyticsImage,
+  extracurricular: extraImage,
+};
 
 const projects = [
   {
@@ -116,8 +125,16 @@ const Projects = () => {
               {filteredProjects.map((project, index) => (
                 <Card 
                   key={index}
-                  className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-border bg-card"
+                  className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-border bg-card overflow-hidden"
                 >
+                  <div className="relative h-48 overflow-hidden">
+                    <img 
+                      src={categoryImages[project.category as keyof typeof categoryImages]} 
+                      alt={project.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-card/90 to-transparent" />
+                  </div>
                   <CardHeader>
                     <CardTitle className="text-card-foreground group-hover:text-primary transition-colors">
                       {project.title}
