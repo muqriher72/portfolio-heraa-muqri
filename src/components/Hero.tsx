@@ -30,20 +30,44 @@ const Hero = () => {
         <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-3xl mx-auto">
           Machine Intelligence Major | Data Engineer | Building LLM-powered solutions and intelligent systems
         </p>
-        <div className="flex gap-4 justify-center flex-wrap">
+        <div className="flex gap-4 justify-center flex-wrap max-w-4xl mx-auto">
           <Button 
             size="lg" 
             variant="secondary"
-            onClick={scrollToProjects}
+            onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
             className="text-lg px-8 transition-all hover:scale-105 hover:shadow-xl"
           >
-            View Projects
+            Projects
           </Button>
           <Button 
             size="lg" 
             variant="outline"
-            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => document.getElementById('coursework')?.scrollIntoView({ behavior: 'smooth' })}
             className="text-lg px-8 bg-white/10 border-white/30 text-white hover:bg-white/20 transition-all hover:scale-105"
+          >
+            Coursework
+          </Button>
+          <Button 
+            size="lg" 
+            variant="outline"
+            onClick={() => document.getElementById('skills')?.scrollIntoView({ behavior: 'smooth' })}
+            className="text-lg px-8 bg-white/10 border-white/30 text-white hover:bg-white/20 transition-all hover:scale-105"
+          >
+            Skills
+          </Button>
+          <Button 
+            size="lg" 
+            variant="outline"
+            onClick={() => document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' })}
+            className="text-lg px-8 bg-white/10 border-white/30 text-white hover:bg-white/20 transition-all hover:scale-105"
+          >
+            Experience
+          </Button>
+          <Button 
+            size="lg" 
+            variant="secondary"
+            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            className="text-lg px-8 transition-all hover:scale-105 hover:shadow-xl"
           >
             Get in Touch
           </Button>
