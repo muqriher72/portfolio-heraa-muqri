@@ -107,7 +107,7 @@ const Projects = () => {
   return (
     <section id="projects" className="py-20 bg-muted/30">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold text-center mb-4 text-foreground">Projects & Work</h2>
+        <h2 className="text-4xl font-bold text-center mb-4 text-foreground">Projects</h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
           A showcase of my machine learning projects, data engineering internships, and research contributions
         </p>
