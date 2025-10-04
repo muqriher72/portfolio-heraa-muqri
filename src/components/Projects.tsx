@@ -109,7 +109,7 @@ const Projects = () => {
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-4 text-foreground">Projects</h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          A showcase of my machine learning projects, data engineering internships, and research contributions
+          A showcase of my machine learning, data analytics, data engineering, and research projects
         </p>
 
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
