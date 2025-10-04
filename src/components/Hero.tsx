@@ -33,9 +33,9 @@ const Hero = () => {
         <div className="flex gap-4 justify-center flex-wrap max-w-4xl mx-auto">
           <Button 
             size="lg" 
-            variant="secondary"
+            variant="outline"
             onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
-            className="text-lg px-8 transition-all hover:scale-105 hover:shadow-xl"
+            className="text-lg px-8 bg-white/10 border-white/30 text-white hover:bg-white/20 transition-all hover:scale-105"
           >
             Projects
           </Button>
@@ -65,9 +65,9 @@ const Hero = () => {
           </Button>
           <Button 
             size="lg" 
-            variant="secondary"
+            variant="outline"
             onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-            className="text-lg px-8 transition-all hover:scale-105 hover:shadow-xl"
+            className="text-lg px-8 bg-white/10 border-white/30 text-white hover:bg-white/20 transition-all hover:scale-105"
           >
             Get in Touch
           </Button>
