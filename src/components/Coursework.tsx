@@ -1,42 +1,55 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { BookOpen, Brain, Database, Code } from "lucide-react";
+import { BookOpen, Brain, Code, Zap } from "lucide-react";
 
 const courses = [
   {
     category: "Machine Learning & AI",
     icon: Brain,
     courses: [
-      "Machine Learning & Data Mining",
-      "Artificial Intelligence Fundamentals",
-      "Deep Learning & Neural Networks"
+      "Introduction to Machine Learning",
+      "Machine Intelligence",
+      "Artificial Intelligence",
+      "Probabilistic Reasoning",
+      "Software and Neural Networks"
     ]
   },
   {
-    category: "Mathematics & Statistics",
+    category: "Mathematics & Computation",
     icon: BookOpen,
     courses: [
-      "Probability & Statistics",
+      "Calculus I & II",
       "Linear Algebra",
-      "Multivariable Calculus",
-      "Differential Equations"
+      "Vector Calculus and Fluid Mechanics",
+      "Ordinary Differential Equations",
+      "Probability and Statistics",
+      "Matrix Algebra and Optimization",
+      "Engineering Mathematics and Computation"
     ]
   },
   {
-    category: "Computer Science",
+    category: "Computer Science & Software",
     icon: Code,
     courses: [
-      "Algorithms & Data Structures",
-      "Object-Oriented Programming",
-      "Software Engineering Principles"
+      "Computer Programming",
+      "Computer Algorithms and Data Structures",
+      "Foundations of Computing",
+      "Systems Software",
+      "Digital and Computer Systems",
+      "Signal Analysis and Communication"
     ]
   },
   {
-    category: "Data Science",
-    icon: Database,
+    category: "Physics & Engineering",
+    icon: Zap,
     courses: [
-      "Data Analytics & Visualization",
-      "Database Systems",
-      "Big Data Processing"
+      "Classical Mechanics",
+      "Electromagnetism",
+      "Quantum and Thermal Physics",
+      "Thermodynamics and Heat Transfer",
+      "Waves and Modern Physics",
+      "Electric Circuits",
+      "Structures and Materials",
+      "Biomedical Engineering"
     ]
   }
 ];
