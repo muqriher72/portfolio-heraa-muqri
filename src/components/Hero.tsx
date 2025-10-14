@@ -51,7 +51,7 @@ const Hero = () => {
           Engineering Science Student @ University of Toronto
         </p>
         <p className={`text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-3xl mx-auto transition-all duration-700 delay-200 ${isTypingComplete ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
-          Machine Intelligence Major | Data Engineer | Building LLM-powered solutions and intelligent systems
+          Machine Intelligence Major | Data Engineer Intern | Building LLM-powered solutions and intelligent systems
         </p>
         <div className={`flex gap-4 justify-center flex-wrap max-w-4xl mx-auto transition-all duration-700 delay-500 ${isTypingComplete ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
           <Button 
