@@ -17,6 +17,14 @@ const categoryImages = {
 const projects = [
   {
     category: "ml",
+    title: "Ensemble ML Model for Exoplanet Detection",
+    description: "Preprocessed 9,500+ datapoints with 43 features using median imputation, one-hot encoding, and feature scaling. Trained and tuned a Stacking Ensemble (Random Forest, Gradient Boosting) achieving 81.2% accuracy with 5-fold cross validation. Deployed via Flask API with Three.js visualization for real-time interactive 3D planet orbits.",
+    tags: ["Python", "R", "Flask", "Three.js", "Scikit-learn", "ML"],
+    github: "#",
+    demo: "#"
+  },
+  {
+    category: "ml",
     title: "GPT-4 and TabPFN-Based ML System for Personalized Study Advice",
     description: "Developed a personalized academic recommendation system using TabPFN for grade prediction (R² of 0.953) and kNN with GPT-4 API integration for study habit suggestions. Performed EDA on 2,392 students' data.",
     tags: ["Python", "TabPFN", "GPT-4", "kNN"],
