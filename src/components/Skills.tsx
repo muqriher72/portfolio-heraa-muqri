@@ -10,7 +10,7 @@ const skills = [
   {
     icon: LineChart,
     title: "Data Analysis",
-    description: "Python, Pandas, NumPy, A/B Testing, Statistical Modeling, EDA"
+    description: "Python, R, Pandas, NumPy, A/B Testing, Statistical Modeling, EDA"
   },
   {
     icon: Code,
