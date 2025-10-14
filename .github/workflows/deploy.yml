@@ -1,14 +1,8 @@
-name: Deploy to GitHub Pages
+name: Deploy dist to GitHub Pages
 
 on:
   push:
-    branches: ['main']
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+    branches: [main]
 
 jobs:
   deploy:
@@ -17,7 +11,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Deploy dist folder to GitHub Pages
-        uses: actions/deploy-pages@v4
+      - name: Deploy dist folder
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          path: ./dist 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
