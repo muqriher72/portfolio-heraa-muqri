@@ -1,8 +1,9 @@
-name: Deploy dist to GitHub Pages
+name: Deploy prebuilt dist to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: ['main']
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -11,16 +12,17 @@ permissions:
 
 jobs:
   deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - uses: actions/checkout@v4
 
-      - name: Deploy dist folder
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Upload prebuilt dist folder
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          force_orphan: true
+          path: './dist'
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
