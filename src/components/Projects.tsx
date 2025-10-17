@@ -61,7 +61,7 @@ const projects = [
     description: "Conducted A/B hypothesis testing and regression analysis on Facebook and AdWords campaigns. Created interactive Tableau dashboard projecting 30% increase in conversions and 15% cost reduction.",
     tags: ["Python", "Tableau", "A/B Testing"],
     github: "https://github.com/muqriher72/Advertising-Campaign-Analytics",
-    demo: "#"
+    demo: "https://docs.google.com/document/d/18niUHqL4cyP8jchcCx4l0OGrliKku-t39qQw-d8uARw/edit?usp=sharing"
   },
   {
     category: "data-analytics",
@@ -69,14 +69,13 @@ const projects = [
     description: "Conducted product analytics to identify underperforming SKUs. Developed Power BI dashboard tracking vendor KPIs, identifying $2.71M in unsold inventory and validating 74% unit cost reduction.",
     tags: ["Python", "SQL", "PowerBI"],
     github: "https://github.com/muqriher72/Vendor-Performance-Analytics",
-    demo: "#"
+    demo: "https://docs.google.com/document/d/1XJ8QbMmnYqIlfDN1n7h1FzNQ1HKfz4wx9_ZZFuI5UiM/edit?usp=sharing"
   },
   {
     category: "data-analytics",
     title: "Community Wellness Data Visualization - GenWell",
     description: "Created Tableau dashboards visualizing social capital data of 4,000+ Toronto residents. Identified high-risk areas for social isolation and presented recommendations to GenWell CEO.",
     tags: ["Tableau", "Excel", "Data Viz"],
-    github: "#",
     demo: "https://docs.google.com/presentation/d/1r6BfemJS--i3sAdCsFpZ5Rt0DQoDECIKyuhSikkbGgs/edit?usp=sharing"
   },
   {
@@ -84,7 +83,6 @@ const projects = [
     title: "RL System for Speech Disfluency (Published Research)",
     description: "Collaborated with 17 students to develop a reinforcement learning model to optimize medication adjustments for minimizing speech disfluency using YouTube video data preprocessing.",
     tags: ["Research", "RL", "Python"],
-    github: "#",
     demo: "https://arxiv.org/html/2312.11509v4"
   },
   {
@@ -92,7 +90,6 @@ const projects = [
     title: "EcoSpout: Water Filtration System (1st Place)",
     description: "Led market research and user research to design water filtration system. Won 1st place at UofT Engineering Competition and advanced to 2024 Ontario Engineering Competition.",
     tags: ["Product Design", "Market Research"],
-    github: "#",
     demo: "https://docs.google.com/presentation/d/1c5gGwqrJkdAaNCnO0mXU6t76-aIliv8Vrglte9suQCo/edit?usp=sharing"
   },
   {
@@ -100,7 +97,6 @@ const projects = [
     title: "SeaPU: IoT Water Monitoring System",
     description: "Conducted user research with 30+ surveys on Indonesian farmers. Built prototype using ArduinoUNO and temperature sensors with QA/QC testing in team of 6.",
     tags: ["IoT", "Arduino", "Product Design"],
-    github: "#",
     demo: "https://drive.google.com/drive/folders/1Nscwq4whG4SOba88CxpudkieGrfLgtAi?usp=sharing"
   }
 ];
