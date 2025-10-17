@@ -29,7 +29,7 @@ const projects = [
     description: "Developed a personalized academic recommendation system using TabPFN for grade prediction (R² of 0.953) and kNN with GPT-4 API integration for study habit suggestions. Performed EDA on 2,392 students' data.",
     tags: ["Python", "TabPFN", "GPT-4", "kNN"],
     github: "https://github.com/elorie-bernard-lacroix/SmartStudy",
-    demo: "#"
+    demo: "https://drive.google.com/file/d/1CXkONFpCXmc1H9cfRgrobtrKA5lLLojD/view?usp=sharing"
   },
   {
     category: "ml",
@@ -37,7 +37,7 @@ const projects = [
     description: "Preprocessed 357,000+ data points and trained a Borzoi model with random forest classifier. Reduced noise by 20% through statistical analysis at Toronto Bioinformatics hackathon.",
     tags: ["Python", "Borzoi", "Random Forest", "Google Colab"],
     github: "https://github.com/hackbio-ca/predicting-disease-causing-mutations",
-    demo: "#"
+    demo: "https://laurenaltomare8.wixstudio.io/tbh24"
   },
   {
     category: "ml",
@@ -45,7 +45,7 @@ const projects = [
     description: "Trained and tested an MLP model with hyperparameter tuning to classify stress based on EEG and ECG signals. Published in STEMFellowship Journal and presented at Microsoft Toronto.",
     tags: ["TensorFlow", "Sklearn", "Neural Networks"],
     github: "https://github.com/muqriher72/IUBDC2024-Biologic",
-    demo: "#"
+    demo: "https://drive.google.com/file/d/1N11Sxy19lEZOhRRjGHVU-w2wu1e0sKOF/view?usp=sharing"
   },
   {
     category: "ml",
@@ -53,7 +53,7 @@ const projects = [
     description: "Trained and tested a decision tree classifier using data from Harvard University's Disease Network with 88% accuracy. Collaborated with a team of 3 using NumPy, Pandas, and Sklearn. Published in STEMFellowship Journal.",
     tags: ["Python", "Scikit-learn", "Decision Trees", "NumPy", "Pandas", "Research"],
     github: "https://github.com/muqriher72/IUBDC2023-Patient-Care-Optimization",
-    demo: "#"
+    demo: "https://drive.google.com/file/d/1mz8k6vZGhERJHTUvNFN4QYHDZP7941JW/view"
   },
   {
     category: "data-analytics",
@@ -77,7 +77,7 @@ const projects = [
     description: "Created Tableau dashboards visualizing social capital data of 4,000+ Toronto residents. Identified high-risk areas for social isolation and presented recommendations to GenWell CEO.",
     tags: ["Tableau", "Excel", "Data Viz"],
     github: "#",
-    demo: "#"
+    demo: "https://docs.google.com/presentation/d/1r6BfemJS--i3sAdCsFpZ5Rt0DQoDECIKyuhSikkbGgs/edit?usp=sharing"
   },
   {
     category: "extracurricular",
@@ -85,7 +85,7 @@ const projects = [
     description: "Collaborated with 17 students to develop a reinforcement learning model to optimize medication adjustments for minimizing speech disfluency using YouTube video data preprocessing.",
     tags: ["Research", "RL", "Python"],
     github: "#",
-    demo: "#"
+    demo: "https://arxiv.org/html/2312.11509v4"
   },
   {
     category: "extracurricular",
@@ -93,7 +93,7 @@ const projects = [
     description: "Led market research and user research to design water filtration system. Won 1st place at UofT Engineering Competition and advanced to 2024 Ontario Engineering Competition.",
     tags: ["Product Design", "Market Research"],
     github: "#",
-    demo: "#"
+    demo: "https://docs.google.com/presentation/d/1c5gGwqrJkdAaNCnO0mXU6t76-aIliv8Vrglte9suQCo/edit?usp=sharing"
   },
   {
     category: "extracurricular",
@@ -101,7 +101,7 @@ const projects = [
     description: "Conducted user research with 30+ surveys on Indonesian farmers. Built prototype using ArduinoUNO and temperature sensors with QA/QC testing in team of 6.",
     tags: ["IoT", "Arduino", "Product Design"],
     github: "#",
-    demo: "#"
+    demo: "https://drive.google.com/drive/folders/1Nscwq4whG4SOba88CxpudkieGrfLgtAi?usp=sharing"
   }
 ];
 
