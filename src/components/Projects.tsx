@@ -20,15 +20,15 @@ const projects = [
     title: "Ensemble ML Model for Exoplanet Detection",
     description: "Preprocessed 9,500+ datapoints with 43 features using median imputation, one-hot encoding, and feature scaling. Trained and tuned a Stacking Ensemble (Random Forest, Gradient Boosting) achieving 81.2% accuracy with 5-fold cross validation. Deployed via Flask API with Three.js visualization for real-time interactive 3D planet orbits.",
     tags: ["Python", "R", "Flask", "Three.js", "Scikit-learn", "ML"],
-    github: "#",
-    demo: "#"
+    github: "https://github.com/EncoderIV/NasaSpaceApp2025",
+    demo: "https://encoderiv.pythonanywhere.com/"
   },
   {
     category: "ml",
     title: "GPT-4 and TabPFN-Based ML System for Personalized Study Advice",
     description: "Developed a personalized academic recommendation system using TabPFN for grade prediction (R² of 0.953) and kNN with GPT-4 API integration for study habit suggestions. Performed EDA on 2,392 students' data.",
     tags: ["Python", "TabPFN", "GPT-4", "kNN"],
-    github: "#",
+    github: "https://github.com/elorie-bernard-lacroix/SmartStudy",
     demo: "#"
   },
   {
@@ -36,7 +36,7 @@ const projects = [
     title: "ML Model for Alzheimer's Causing Mutations in Women",
     description: "Preprocessed 357,000+ data points and trained a Borzoi model with random forest classifier. Reduced noise by 20% through statistical analysis at Toronto Bioinformatics hackathon.",
     tags: ["Python", "Borzoi", "Random Forest", "Google Colab"],
-    github: "#",
+    github: "https://github.com/hackbio-ca/predicting-disease-causing-mutations",
     demo: "#"
   },
   {
@@ -44,7 +44,7 @@ const projects = [
     title: "MLP Neural Network for Stress Detection",
     description: "Trained and tested an MLP model with hyperparameter tuning to classify stress based on EEG and ECG signals. Published in STEMFellowship Journal and presented at Microsoft Toronto.",
     tags: ["TensorFlow", "Sklearn", "Neural Networks"],
-    github: "#",
+    github: "https://github.com/muqriher72/IUBDC2024-Biologic",
     demo: "#"
   },
   {
@@ -52,7 +52,7 @@ const projects = [
     title: "Decision Tree Classifier for Undiagnosed Disease Treatment Prediction",
     description: "Trained and tested a decision tree classifier using data from Harvard University's Disease Network with 88% accuracy. Collaborated with a team of 3 using NumPy, Pandas, and Sklearn. Published in STEMFellowship Journal.",
     tags: ["Python", "Scikit-learn", "Decision Trees", "NumPy", "Pandas", "Research"],
-    github: "#",
+    github: "https://github.com/muqriher72/IUBDC2023-Patient-Care-Optimization",
     demo: "#"
   },
   {
@@ -60,7 +60,7 @@ const projects = [
     title: "Advertising Campaign Performance Analytics",
     description: "Conducted A/B hypothesis testing and regression analysis on Facebook and AdWords campaigns. Created interactive Tableau dashboard projecting 30% increase in conversions and 15% cost reduction.",
     tags: ["Python", "Tableau", "A/B Testing"],
-    github: "#",
+    github: "https://github.com/muqriher72/Advertising-Campaign-Analytics",
     demo: "#"
   },
   {
@@ -68,7 +68,7 @@ const projects = [
     title: "Vendor Performance Analytics",
     description: "Conducted product analytics to identify underperforming SKUs. Developed Power BI dashboard tracking vendor KPIs, identifying $2.71M in unsold inventory and validating 74% unit cost reduction.",
     tags: ["Python", "SQL", "PowerBI"],
-    github: "#",
+    github: "https://github.com/muqriher72/Vendor-Performance-Analytics",
     demo: "#"
   },
   {
