@@ -154,19 +154,21 @@ const Projects = () => {
                       ))}
                     </div>
                     <div className="flex gap-2">
+                    {project.github && (
                       <Button variant="outline" size="sm" className="flex-1" asChild>
                         <a href={project.github} target="_blank" rel="noopener noreferrer">
                           <Github className="w-4 h-4 mr-2" />
                           Code
                         </a>
                       </Button>
-                      <Button variant="default" size="sm" className="flex-1" asChild>
-                        <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                          <ExternalLink className="w-4 h-4 mr-2" />
-                          View
-                        </a>
-                      </Button>
-                    </div>
+                    )}
+                    <Button variant="default" size="sm" className="flex-1" asChild>
+                      <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                        <ExternalLink className="w-4 h-4 mr-2" />
+                        View
+                      </a>
+                    </Button>
+                  </div>
                   </CardContent>
                 </Card>
               ))}
